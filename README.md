@@ -30,7 +30,7 @@
 **0². For Chrome users: install **Tampermonkey** for your browser (should work too):**  
 *[Chrome Web Store](https://chromewebstore.google.com/detail/dhdgffkkebhmkfjojejmpbldmpobfkfo?utm_source=item-share-cb)*  
 
-**1. [Click here](https://github.com/crmbz0r/ViolentRipper/raw/refs/heads/main/violent-ripper.user.js) and the userscript should load into Violentmonkey**  
+**1. [Click here](https://github.com/crmbz0r/ViolentRipper/raw/refs/heads/main/ViolentRipper.user.js) and the userscript should load into Violentmonkey**  
 
 **1.5 If it doesn't get added automatically, continue here to add it manually**  
 **2. Open *Violentmonkey Dashboard* or press on the monkey head in your browsers addon symbol area**  
