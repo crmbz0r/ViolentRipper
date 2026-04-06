@@ -14,7 +14,7 @@
 //
 // @require      file:///A:/Violentmonkey/violent-ripper/lib/state.js
 //
-// @require      https://raw.githubusercontent.com/crmbz0r/violent-ripper/main/lib/state.js
+// @require      https://raw.githubusercontent.com/crmbz0r/violent-ripper/refs/heads/main/lib/state.js
 //
 // @require      .../lib/state.js
 // @require      .../lib/styles.js
