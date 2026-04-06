@@ -1,7 +1,7 @@
 ﻿// ==UserScript==
 // @name         Violent Ripper
 // @namespace    https://github.com/crmbz0r/violent-ripper
-// @version      5.0.0
+// @version      4.2.0
 // @description  Rips websites using correct local paths and preserves the original folder structure
 // @match        *://*/*
 // @grant        GM_xmlhttpRequest
