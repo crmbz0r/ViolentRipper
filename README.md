@@ -2,7 +2,9 @@
 
 #### *Powerful Violentmonkey userscript for ripping complete websites while preserving original folder structure and relative paths*
 
-⣾⣴⡻⢒⣥⡿⢠⠕⣘⡰⢀⠤⡫⡤⠐⣳⡉⡸⢾⣾⢚⢟⣯⡈⣣⠘⣲⠠⢀⠏⠵⠚⢋⡍⠤⢻⢙⣢⠃⠍⡐⠼⠸⡍⢷⢼⠨⠐⢕⢜⠺⣄⠣⡞⣈⣕⡑⠋⡃⠫⣣⢬⣃⣅⢇⠇⣗⣺⢮⠔⣽⠾⡳⢰⠥⡀⠁⠤
+┏━┓ ̧̨  ̣   ̄    ̇   ̥  ̣ ̣̣  ̣̣   ̦̦  ̣ ̣̣   ˙  ̄    ̇     ̥  ̣ ̣̣  ▔ ̦̦   ̣ ̣̣    ̦̦  ┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓  
+┃╹▀▋▆▀▝▘▃▞⣾⣴⡻⢒⣥⡿ .│⠕⣘⡰⢀⠤⡫⡤⠐⣳⡉⡸⢾┋⣾⢚⣯⡈⣣⠘⣲⠠⢀⠏⠵⠚⢋⡍⠤⢻⢙⣢⠃`' ┃⡐⠼⠸⡍⢷⢼⠨⠐⢕⢜⠺⠋, ⡃⠫⣣⢬⣃⣅⢇⠇⣗⣺⢮⠔⣽⡳⢰⠥⡀⠁⠤    
+▀━━╾▁▔╶╶ ╴╶╶ ╼━━━━━━━━┛ ˙  ̄    ̇     ̥  ̣   ̣ ˙  ̄    ̇     ̥  ̣ ̣̣  ̣̣   ̦̦  ̣ ̣̣  ̣ ˙  ̄    ̇     ̥  ̣ ̣̣   ̣̣   ̣ . ˙  ̄    ̇     ̥  ̣ ̣̣˙  ̄    ̇  ̣ ˙  ̄    ̇     ̥  ̣ ̣̣  ̣̣   ̦̦  ̣ ̣̣     ̥  ̣ ̣̣ ┗━━━━━━╾ ╺╶╶  ╶    ╶        ╴
 
 ## ✨ Features
 
@@ -16,49 +18,60 @@
 - ✅ Works on **every website** (no domain restrictions)
 - ✅ Proper error handling & status logging
 - ✅ Zero external dependencies except JSZip
+  
 
-⡚⠝⡟⠣⡳⢱⡿⣻⣷⢔⢢⣋⣈⢯⢊⣭⢹⣵⣔⣗⣬⡶⡵⡏⢻⣩⠦⡁⠩⡴⡮⡪⡥⣪⠜⣠⣒⢓⢕⠳⡯⣠⣐⣮⢅⠼⢧⡔⡀⣑⢩⡝⢶⡙⡠⡍⡖⢍⢈⢫⣥⠹⢄⢠⣜⠗⢞⢖⣩⡼⡢⡇⣯⡑⠔
+⡚⠝⡟⠣⡳⢱⡿⣻⣷⢔⢢⣋⣈⢯⢊⣭⢹⣵⣔⣗⣬⡶⡵⡏⢻⣩⠦⡁⠩⡴⡮⡪⡥⣪⠜⣠⣒⢓⢕⠳⡯⣠⣐⣮⢅⠼⢧⡔⡀⣑⡍⡖⢍⢈⢫⣥⠹⢄⢠⣜⠗⢞⢖⣩⡼⡢⡇⣯⡑⠔  
+
 
 ## 🚀 Installation
 
-**0¹. For Firefox users: install **Violentmonkey** for your browser:**
-*[Firefox Addons](https://addons.mozilla.org/firefox/addon/violentmonkey/)*
-**0². For Chrome users: install **Tampermonkey** for your browser (should work too):**
-*[Chrome Web Store](https://chromewebstore.google.com/detail/dhdgffkkebhmkfjojejmpbldmpobfkfo?utm_source=item-share-cb)*
-**1. Open *Violentmonkey Dashboard***
-**2. Create *new userscript***
-**3. Paste the *complete code* from `violent-ripper.user.js`**
-**4. *Save & done!***
+**0¹. For Firefox users: install **Violentmonkey** for your browser:**  
+*[Firefox Addons](https://addons.mozilla.org/firefox/addon/violentmonkey/)*  
+**0². For Chrome users: install **Tampermonkey** for your browser (should work too):**  
+*[Chrome Web Store](https://chromewebstore.google.com/detail/dhdgffkkebhmkfjojejmpbldmpobfkfo?utm_source=item-share-cb)*  
+**1. Open *Violentmonkey Dashboard***  
+**2. Create *new userscript***  
+**3. Paste the *complete code* from `violent-ripper.user.js`**  
+**4. *Save & done!***  
+  
 
-⡽⡸⣹⡲⠟⠸⠻⠲⣁⣏⣻⡑⣌⢐⡶⡛⣗⢌⢰⡉⡜⡻⠯⣽⡐⠴⠧⢬⢶⠙⡵⠅⢡⢹⢝⣫⡃⣂⢎⣧⠢⢿⣱⡧⡄⡘⣝⡓⣓⢮⢛⡈⢅⢉⣥⣄⣦⠫⠭⣔⣒⢷⠩⡀⠌⠨⣍⣎⠮⠷⠬⡅⠓⡗⣟⣺⢦
+⡽⡸⣹⡲⠟⠸⠻⠲⣁⣏⣻⡑⣌⢐⡶⡛⣗⢌⢰⡉⡜⡻⠯⣽⡐⠴⠧⢬⢶⠙⡵⠅⢡⢹⢝⣫⣱⡧⡄⡘⣝⡓⣓⢮⢛⡈⢅⢉⣥⣄⣦⠫⠭⣔⣒⢷⠩⡀⠌⠨⣍⣎⠮⠷⠬⡅⠓⡗⣟⣺⢦  
+
 
 ## 🎯 Usage
 
-**1. Visit any website you want to rip**
-**2. Click the **`⇣V↬Ripper`** button in the bottom right corner**
-**3. ✅ Use the filter chips to select which file types you want**
-**4. Press **🔍 Scannen** to run a full site scan**
-**5. Wait for files to be processed**
-**6. Press **📦 ZIP laden** to download the complete archive**
+**1. Visit any website you want to rip**  
+**2. Click the **`⇣V↬Ripper`** button in the bottom right corner**  
+**3. ✅ Use the filter chips to select which file types you want**  
+**4. Press **🔍 Scannen** to run a full site scan**  
+**5. Wait for files to be processed**  
+**6. Press **📦 ZIP laden** to download the complete archive**  
+  
 
-⢃⢴⢗⣉⠃⣰⢾⠞⢯⡜⠶⢜⡬⠰⠂⡊⣛⣾⣴⡻⢒⣥⡿⢠⠕⣘⡰⢀⠤⡫⡤⠐⣳⡉⡸⢾⣾⢚⢟⣯⡈⣣⠘⣲⠠⢀⠏⠵⠚⢋⡍⠤⢻⢙⣢⠃⠍⡐⡯⢅⠎⣰⡎⠻⡐⠼⠸⡍⢷⢼⠨⠐⢕⢜⠺⣄
+⢃⢴⢗⣉⠃⣰⢾⠞⢯⡜⠶⢜⡬⠰⠂⡊⣛⣾⣴⡻⢒⣥⡿⢠⠕⣘⡰⢀⠤⡫⡤⠐⡈⣣⠘⣲⠠⢀⠏⠵⠚⢋⡍⠤⢻⢙⣢⠃⠍⡐⡯⢅⠎⣰⡎⠻⡐⠼⠸⡍⢷⢼⠨⠐⢕⢜⠺⣄  
+
 
 ### 👁 Watch Mode
 
-**Enable ***Watch Mode** to automatically* capture every single file that gets loaded on the page while you navigate around. Perfect for single page applications and sites that load content dynamically.**
+**Enable ***Watch Mode** to automatically* capture every single file that gets loaded on the page while you navigate around.  
+Perfect for single page applications and sites that load content dynamically.**
+  
 
-⠣⡞⣈⣕⡑⠋⡃⠫⣣⢬⣃⣅⢇⠇⣗⣺⢮⠔⣽⠾⡳⢰⠥⡀⠁⠤⢃⡧⡱⠖⠐⢄⣧⢂⠲⡢⠆⡠⠁⠢⠒⠉⠶⠩⠧⡗⡾⠤⣼⠃⠼⢆⢚⠜⡵⠅⠘⠺⠽⢁⠂⣶⡛⢻⢵⣑⣿⠟⠫⠻⠻⠏⠿⢠⢈⠦
+⠣⡞⣈⣕⡑⠋⡃⠫⣣⢬⣃⣅⢇⠇⣗⣺⢮⢰⠥⡀⠁⠤⢃⡧⡱⠖⠐⢄⣧⢂⠲⡢⠆⡠⠁⠢⠒⠉⠶⠩⠧⡗⡾⠤⣼⠃⠼⢆⢚⠜⡵⠅⠘⠺⠽⢁⠂⣶⡛⢻⢵⠟⠫⠻⠻⠏⠿⢠⢈⠦  
+
 
 ## ⚙ How it works
 
-**1. Scans the entire DOM for all external resources**
-**2. Uses Performance API to find even dynamically loaded files**
-**3. Downloads each file using `GM_xmlhttpRequest` (no CORS restrictions)**
-**4. Rewrites all `src`, `href`, `background-image` paths to be relative**
-**5. Reconstructs exact original directory structure**
-**6. Packages everything into properly structured ZIP file**
+**1. Scans the entire DOM for all external resources**  
+**2. Uses Performance API to find even dynamically loaded files**  
+**3. Downloads each file using `GM_xmlhttpRequest` (no CORS restrictions)**  
+**4. Rewrites all `src`, `href`, `background-image` paths to be relative**  
+**5. Reconstructs exact original directory structure**  
+**6. Packages everything into properly structured ZIP file**  
+  
 
-⡙⡠⡍⡖⢍⢈⢫⣥⠹⢄⣬⡶⡵⡏⢻⣩⠦⡁⠩⡴⡮⡪⢠⣜⠗⢞⢖⣩⡼⡢⡇⣯⡑⠔⡽⡸⣹⡲⠟⠸⠻⠲⣁⣏⣻⡑⣌⢐⡶⡛⣗⢌⢰⡉⡜⡻⠯⣽⡐⠴⠧⢬⢶⠙⡵⠅⢡⢹⢝⣫⡃⣂⢎⣧⠢⢿⣱⡧⡄⡘
+⡙⡠⡍⡖⢍⢈⢫⣥⠹⢄⣬⡶⡵⡏⢻⣩⠦⡁⠩⡴⡮⡪⢠⣜⠗⢞⢖⣩⡼⡢⡇⣯⡑⠔⡽⡸⣹⡲⠟⠸⠻⡶⡛⣗⢌⢰⡉⡜⡻⠯⣽⡐⠴⠧⢬⢶⠙⡵⠅⢡⢹⢝⣫⡃⣂⢎⣧⠢⢿⣱⡧⡄⡘  
+
 
 ## 📋 File Types
 
@@ -67,9 +80,11 @@
 | **🟢 `.js`**   | **All JavaScript files**                    |
 | **🟣 `.css`**  | **Stylesheets including imports**           |
 | **🟡 `.html`** | **Pages and documents**                     |
-| **🔵 Images**    | **`png, jpg, gif, svg, webp, ico, avif`** |
+| **🔵 Images**    | **`png, jpg, gif, svg, webp, ico, avif`** |  
+  
 
-⠶⢜⡬⠰⠂⡊⣛⣾⣴⡻⢒⣥⡿⢠⠕⣘⡰⢀⠤⡫⡤⠐⣳⡉⡸⢾⣾⢚⢟⣯⡈⣣⠘⣲⠠⢀⠏⠵⠚⢋⡍⠤⢻⢙⣢⠃⠍⣄⠣⡞⣈⣕⡑⠋⡃⠫⣣⢬⣃⣅⢇⠇⣗⣺⢮⠔⣽⠾⡳⢰⠥⡀⠁⠤⢃⡧⡱⠖⠐⢄
+⠶⢜⡬⠰⠂⡊⣛⣾⣴⡻⢒⣥⡿⢠⠕⣘⡰⢀⠤⡫⡤⠐⣳⡉⡸⢾⢻⢙⣢⠃⠍⣄⠣⡞⣈⣕⡑⠋⡃⠫⣣⢬⣃⣅⢇⠇⣗⣺⢮⠔⣽⠾⡳⢰⠥⡀⠁⠤⢃⡧⡱⠖⠐⢄  
+
 
 ## 🔒 Permissions
 
@@ -77,16 +92,21 @@
 
 - **`GM_xmlhttpRequest` for cross-origin downloads**
 - **`GM_addStyle` for UI styling**
-- **Full host access `*://*/*` to work on all websites**
+- **Full host access `*://*/*` to work on all websites**  
+  
 
-⠹⢄⢠⣜⠗⢞⢖⣩⡼⡢⡇⣯⡑⠔⡽⡸⣹⡲⠟⠸⠻⠲⣁⣏⣻⡑⣌⢐⡶⡛⣗⢌⢰⡉⡜⡻⠯⣽⡐⠴⠧⢬⢶⠙⡵⠅⢡⢹⢝⣫⡃⣂⢎⣧⠢⢿⣱⡧⡄⡘⣝⡓⣓⢮⢛⡈⢅⢉⣥⣄⣦⠫⠭⣔⣒⢷⠩⡀⠌
+⠹⢄⢠⣜⠗⢞⢖⣩⡼⡢⡇⣯⡑⠔⡽⡸⣹⡲⠟⠸⠻⠲⣁⢰⡉⡜⡻⠯⣽⡐⠴⠧⢬⢶⠙⡵⠅⢡⢹⢝⣫⡃⣂⢎⣧⠢⢿⣱⡧⡄⡘⣝⡓⣓⢮⢛⡈⢅⢉⣥⣄⣦⠫⠭⣔⣒⢷⠩⡀⠌  
+
 
 ## 📝 License
 
-**MIT License - Use freely, modify, distribute as you like.**
+**MIT License - Use freely, modify, distribute as you like.**  
 
-⣾⣴⡻⢒⣥⡿⢠⠕⣘⡰⢀⠤⡫⡤⠐⣳⡉⡸⢾⣾⢚⢟⣯⡈⣣⠘⣲⠠⢀⠏⠵⠚⢋⡍⠤⢻⢙⣢⠃⠍⡐⡯⢅⠎⣰⡎⠻⡐⠼⠸⡍⢷⢼⠨⠐⢕⢜⠺⠾⡳⢰⠥⡀⠁⠤⢃⡧⡱⠖⠐⢄⣧⢂⠲⡢⠆⡠⠁⠢⠒
 
-#### *Built for Violentmonkey - Works best on modern browsers - Most likely Tampermonkey compatible*
+⣾⣴⡻⢒⣥⡿⢠⠕⣘⡰⢀⠤⡫⡤⠐⣳⡉⡸⢾⣾⢚⢟⣯⡈⣣⠘⣲⠠⢀⠏⠵⠚⢋⡍⠤⢻⢙⣢⠃⠍⡐⡯⢅⠎⠺⠾⡳⢰⠥⡀⠁⠤⢃⡧⡱⠖⠐⢄⣧⢂⠲⡢⠆⡠⠁⠢⠒  
+
+
+#### *Built for Violentmonkey - Works best on modern browsers - Most likely Tampermonkey compatible*  
+
 
 ⡚⠝⡟⠣⡳⢱⡿⣻⣷⢔⢢⣋⣈⢯⢊⣭⢹⣵⣔⣗⣬⡶⡵⡏⢻⣩⠦⡁⠩⡴⡮⡪⡥⣪⠜⣠⣒⢓⢕⠳⡯⣠⠰⣐⣮⢅⠼⢧⡔⡀⣑⢩⡝⢶⡙⡠⡍⡖⢍⢈⢫⣥⠹⢄⢠⣜⠗⢞⢖⣩⡼⡢⡇⣯⡑⠔⡽⡸⣹⡲⠟⠸⠻⠲⣁⣏⣻⡑⣌⢐⡶⡛⣗⢌⢰⡉⡜⡻⠯⣽⡐⠴⠧⢬⢶⠙⡵⠅⢡⢹⢝⣫⡃⣂⢎⣧⠢⢿⣱⡧⡄⡘⣝⡓⣓⢮⢛⡈⢅⢉⣥⣄⣦⠫⠭⣔⣒⢷⠩⡀⠌⠨⣍⣎⠮⠷⠬⡅⠓⡗⣟⣺⢦⢃⢴⢗⣉⠃⣰⢾⠞⢯⡜⠶⢜⡬⠰⠂⡊⣛⣾⣴⡻⢒⣥⡿⢠⠕⣘⡰⢀⠤⡫⡤⠐⣳⡉⡸⢾⣾⢚⢟⣯⡈⣣⠘⣲⠠⢀⠏⠵⠚⢋⡍⠤⢻⢙⣢⠃⠍⡐⡯⢅⠎⣰⡎⠻⡐⠼⠸⡍⢷⢼⠨⠐⢕⢜⠺⣄⠣⡞⣈⣕⡑⠋⡃⠫⣣⢬⣃⣅⢇⠇⣗⣺⢮⠔⣽⠾⡳⢰⠥⡀⠁⠤⢃⡧⡱⠖⠐⢄⣧⢂⠲⡢⠆⡠⠁⠢⠒⠉⠶⠩⠧⡗⡾⠤⣼⠃⠼⢆⢚⠜⡵⠅⠘⠺⠽⢁⠂⣶⡛⢻⢵⣑⣿⠟⠫⠻⠻⠏⠿⢠⢈
