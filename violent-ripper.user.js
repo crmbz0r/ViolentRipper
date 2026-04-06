@@ -1,6 +1,6 @@
-﻿// ==UserScript==
+// ==UserScript==
 // @name         Violent Ripper
-// @namespace    https://github.com/crmbz0r/violent-ripper
+// @namespace    https://github.com/crmbz0r/ViolentRipper
 // @version      4.2.0
 // @description  Rips websites using correct local paths and preserves the original folder structure
 // @match        *://*/*
@@ -11,15 +11,14 @@
 // @noframes
 // @inject-into  page
 // @require      https://cdn.jsdelivr.net/npm/jszip@3.9.1/dist/jszip.min.js
-// @require      https://raw.githubusercontent.com/crmbz0r/violent-ripper/refs/heads/main/lib/state.js
-// @require      .../lib/state.js
-// @require      .../lib/styles.js
-// @require      .../lib/pathUtils.js
-// @require      .../lib/collector.js
-// @require      .../lib/fetcher.js
-// @require      .../lib/downloader.js
-// @require      .../lib/scanner.js
-// @require      .../lib/ui.js
+// @require      https://raw.githubusercontent.com/crmbz0r/ViolentRipper/refs/heads/main/lib/state.js
+// @require      https://raw.githubusercontent.com/crmbz0r/ViolentRipper/refs/heads/main/lib/styles.js
+// @require      https://raw.githubusercontent.com/crmbz0r/ViolentRipper/refs/heads/main/lib/pathUtils.js
+// @require      https://raw.githubusercontent.com/crmbz0r/ViolentRipper/refs/heads/main/lib/collector.js
+// @require      https://raw.githubusercontent.com/crmbz0r/ViolentRipper/refs/heads/main/lib/fetcher.js
+// @require      https://raw.githubusercontent.com/crmbz0r/ViolentRipper/refs/heads/main/lib/downloader.js
+// @require      https://raw.githubusercontent.com/crmbz0r/ViolentRipper/refs/heads/main/lib/scanner.js
+// @require      https://raw.githubusercontent.com/crmbz0r/ViolentRipper/refs/heads/main/lib/ui.js
 // ==/UserScript==
 
 ; (function () {
