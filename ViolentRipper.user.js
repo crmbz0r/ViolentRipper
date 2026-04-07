@@ -56,7 +56,7 @@
             e.stopPropagation()
             const s = ViolentRipper.state
             s.autoWatchEnabled = !s.autoWatchEnabled
-            localStorage.setItem('violentripper-autowatch', s.autoWatchEnabled)
+            localStorage.setItem('ViolentRipper-autowatch', s.autoWatchEnabled)
             elements.autoWatchBtn.classList.toggle('enabled', s.autoWatchEnabled)
         })
 
