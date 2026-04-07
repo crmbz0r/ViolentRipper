@@ -57,7 +57,7 @@
 
 ### 👁 Watch Mode
 
-**Enable ***Watch Mode** to automatically* capture every single file that gets loaded on the page while you navigate around.  
+**Enable ***Watch Mode** to automatically* capture every  new file that loads delayed on the page while you navigate around.  
 Perfect for single page applications and sites that load content dynamically.**
   
 
