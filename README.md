@@ -47,9 +47,9 @@
 **1. Visit any website you want to rip**  
 **2. Click the **`⇣V↬Ripper`** button in the bottom right corner**  
 **3. ✅ Use the filter chips to select which file types you want**  
-**4. Press **🔍 Scannen** to run a full site scan**  
+**4. Press **🔍 Scan** to run a full site scan**  
 **5. Wait for files to be processed**  
-**6. Press **📦 ZIP laden** to download the complete archive**  
+**6. Press **📦 Save ZIP** to download the complete archive**  
   
 
 ⢃⢴⢗⣉⠃⣰⢾⠞⢯⡜⠶⢜⡬⠰⠂⡊⣛⣾⣴⡻⡿⢠⠕⣘⡰⢀⠤⡫⡤⠐⡈⣣⠘⣲⠠⢀⠏⠵⠚⢋⡍⠤⢻⢙⣢⠃⠍⡐⡯⢅⠎⣰⡎⠻⡐⠼⠸⡍⢷⢼⠨⠐⢕⢜⠺⣄  
