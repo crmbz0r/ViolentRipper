@@ -34,7 +34,7 @@
 
 **1.5 If it doesn't get added automatically, continue here to add it manually**  
 **2. Open *Violentmonkey Dashboard* or press on the monkey head in your browsers addon symbol area**  
-**3. Create a *new userscript* by pressing the **+** in the upper left corner in the dashboard or the fat **+** from the monkey icon**  
+**3. Create a *new userscript* using the **+** in the upper left corner in the dashboard or the fat **+** from the monkey icon**  
 **4. Paste the *complete code* from `ViolentRipper.user.js`**  
 **4. *Save & done!***  
   
