@@ -1,6 +1,6 @@
 # *Violent Ripper*
 
-#### *Powerful Violentmonkey userscript for ripping website parts while preserving original folder structure and relative paths*
+#### *Powerful Violentmonkey userscript for ripping websites while preserving original folder structure and relative paths*
 
 ┏━┓ ̧̨  ̣   ̄    ̇   ̥  ̣ ̣̣  ̣̣   ̦̦  ̣ ̣̣   ˙  ̄    ̇     ̥  ̣ ̣̣  ▔ ̦̦   ̣ ̣̣    ̦̦  ┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓  
 ┃╹▀▋▆▀▝▘▃▞⣾⣴⡻⢒⣥⡿ .│⠕⣘⡰⢀⠤⡫⡤⠐⣳⡉⡸⢾┋⣾⢚⣯⡈⣣⠘⣲⠠⢀⠏⠵⠚⢋⡍⠤⢻⢙⣢⠃`' ┃⡐⠼⠸⡍⢷⢼⠨⠐⢕⢜⠔⣽⡳⢰⠥⡀⠁⠤    
