@@ -25,3 +25,4 @@ replay_pid*
 
 .vscode/**
 .specstory/**
+purge-cdn.ps1
