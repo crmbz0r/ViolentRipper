@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         ViolentRipper
 // @namespace    https://github.com/crmbz0r/ViolentRipper
-// @version      4.2.0.45
+// @version      4.2.0.5
 // @description  Rips websites using correct local paths and preserves the original folder structure
 // @match        *://*/*
 // @grant        GM_xmlhttpRequest
@@ -10,14 +10,14 @@
 // @noframes
 // @inject-into  page
 // @require      https://cdn.jsdelivr.net/npm/jszip@3.9.1/dist/jszip.min.js
-// @require      https://raw.githubusercontent.com/crmbz0r/ViolentRipper/refs/heads/main/lib/state.js
-// @require      https://raw.githubusercontent.com/crmbz0r/ViolentRipper/refs/heads/main/lib/styles.js
-// @require      https://raw.githubusercontent.com/crmbz0r/ViolentRipper/refs/heads/main/lib/pathUtils.js
-// @require      https://raw.githubusercontent.com/crmbz0r/ViolentRipper/refs/heads/main/lib/collector.js
-// @require      https://raw.githubusercontent.com/crmbz0r/ViolentRipper/refs/heads/main/lib/fetcher.js
-// @require      https://raw.githubusercontent.com/crmbz0r/ViolentRipper/refs/heads/main/lib/downloader.js
-// @require      https://raw.githubusercontent.com/crmbz0r/ViolentRipper/refs/heads/main/lib/scanner.js
-// @require      https://raw.githubusercontent.com/crmbz0r/ViolentRipper/refs/heads/main/lib/ui.js
+// @require      https://cdn.jsdelivr.net/gh/crmbz0r/ViolentRipper@main/lib/state.js
+// @require      https://cdn.jsdelivr.net/gh/crmbz0r/ViolentRipper@main/lib/styles.js
+// @require      https://cdn.jsdelivr.net/gh/crmbz0r/ViolentRipper@main/lib/pathUtils.js
+// @require      https://cdn.jsdelivr.net/gh/crmbz0r/ViolentRipper@main/lib/collector.js
+// @require      https://cdn.jsdelivr.net/gh/crmbz0r/ViolentRipper@main/lib/fetcher.js
+// @require      https://cdn.jsdelivr.net/gh/crmbz0r/ViolentRipper@main/lib/downloader.js
+// @require      https://cdn.jsdelivr.net/gh/crmbz0r/ViolentRipper@main/lib/scanner.js
+// @require      https://cdn.jsdelivr.net/gh/crmbz0r/ViolentRipper@main/lib/ui.js
 // ==/UserScript==
 
 ; (function () {
