@@ -1,4 +1,4 @@
-# *Violent Ripper*
+# *V!ΘLΞИT RIPPƎЯ*
 
 #### *Powerful Violentmonkey userscript for ripping websites while preserving original folder structure and relative paths*
 
