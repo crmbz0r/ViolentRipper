@@ -1,142 +1,141 @@
 # <div align="center"> <h3> *V ! ῼ L Ξ ̵И̷ ̷T̴   ╳ R̶ ̴I̴ P P Ǝ̵ Я* </h3>
-   ̷̧̧̛̬̪͖͔̍̀́͌͊̾́͠ ̴̧̨̨̨͎͚̥͈̼͚̮͂̓̆̿̏ͅ ̴̨̺̭̥̦̝͚̘̀                                         ̷̧̛̬̪͖͔̍̀́͌͊̾́͠ ̶̊͌́̋          
+   ̷̧̧̛̬̪͖͔̍̀́͌͊̾́͠ ̴̧̨̨̨͎͚̥͈̼͚̮͂̓̆̿̏ͅ ̴̨̺̭̥̦̝͚̘̀                                         ̷̧̛̬̪͖͔̍̀́͌͊̾́͠ ̶̊͌́̋            ̷̧̨̧̧̨̛̲̥̗̭͕̥̟͍͕̘̺̭͈̦̮̥̱̹͚͙͇͇̝̠̯͇̫͕͖̺͚̖͈̹̟͚̟̫͔̤̰̬̤͎̹̯̳͍̘̱͚̲̪͔̟̟̲͆̈́͊́̓̂̇́͆͒͗̈́̆̈́̌̆̄̏̒̈́̚͘͜͜͝͠͝͝ͅ ̷̢̡̛̛̛̜͔̟̖̹̲̺̱͎͕̯̠̜̳͈͍̙́̈́̅͂̆̏̍́̇̑͂͒̎̐͆̈́̿̋͛͗͑̂̽̑͆̃̋̈̍̈́͆͋̒͛́̍̒̃͊̽̌̿̚͘̚ ̵̨̢̧̡͓̹̗͇̺͚̯̭̗̲̤͉̪͇̪̼͉̘̪͕̤̤͕͓̠̯̥̤͓͈̦̺͑͋͑̎̀͜ͅ
 
-                      
-       ̷̧̨̧̧̨̛̲̥̗̭͕̥̟͍͕̘̺̭͈̦̮̥̱̹͚͙͇͇̝̠̯͇̫͕͖̺͚̖͈̹̟͚̟̫͔̤̰̬̤͎̹̯̳͍̘̱͚̲̪͔̟̟̲͆̈́͊́̓̂̇́͆͒͗̈́̆̈́̌̆̄̏̒̈́̚͘͜͜͝͠͝͝ͅ
-                            ....             
-## <div align="cenr">          Powerful Violentmonkey script for ripping websites, ̷̢̡̛̛̛̜͔̟̖̹̲̺̱͎͕̯̠̜̳͈͍̙́̈́̅͂̆̏̍́̇̑͂͒̎̐͆̈́̿̋͛͗͑̂̽̑͆̃̋̈̍̈́͆͋̒͛́̍̒̃͊̽̌̿̚͘̚   </div> 
-## <div align="cenr">     while preserving original folder structure and relative paths. </div> 
-                                            
- 
-┏━┓ ̧̨ ̣ ̄ ̇ ̥ ̣ ̣̣ ̣̣ ̦̦ ̣ ̣̣ ˙ ̄ ̇ ̥ ̣ ̣̣ ▔ ̦̦ ̣ ̣̣ ̦̦ ┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
-┃╹▀▋▆▀▝▘▃▞⣾⣴⡻⢒⣥⡿ .│⠕⣘⡰⢀⠤⡫⡤⠐⣳⡉⡸⢾┋⣾⢚⣯⡈⣣⠘⣲⠠⢀⠏⠵⠚⢋⡍⠤⢻⢙⣢⠃`' ┃⡐⠼⠸⡍⢷⢼⠨⠐⢕⢜⠔⣽⡳⢰⠥⡀⠁⠤
-▀━━╾▁▔╶╶ ╴╶╶ ╼━━━━━━━━┛ ˙ ̄ ̇ ̥ ̣ ̣ ˙ ̄ ̇ ̥ ̣ ̣̣ ̣̣ ̦̦ ̣ ̣̣ ̣ ˙ ̄ ̇ ̥ ̣ ̣̣ ̣̣ ̣ . ˙ ̄ ̇ ̥ ̣ ̣̣˙ ̄ ̇ ̣ ˙ ̄ ̇ ̥ ̣ ̣̣ ̣̣ ̦̦ ̣ ̣̣ ̥ ̣ ̣̣ ┗━━━━━━╾ ╺╶╶ ╶    ╶        ╴                ̷̢̡̛̛̛̜͔̟̖̹̲̺̱͎͕̯̠̜̳͈͍̙́̈́̅͂̆̏̍́̇̑͂͒̎̐͆̈́̿̋͛͗͑̂̽̑͆̃̋̈̍̈́͆͋̒͛́̍̒̃͊̽̌̿̚͘̚ ̵̨̢̧̡͓̹̗͇̺͚̯̭̗̲̤͉̪͇̪̼͉̘̪͕̤̤͕͓̠̯̥̤͓͈̦̺͑͋͑̎̀͜ͅ                                               
-## 👀 FeatureՏ
 
-- **Dolby Atmos & hi-res support** — recognizes and badges ATMOS, FLAC, and other lossless formats
-- **Supported formats** — MP3, AAC/M4A, FLAC, WAV, ALAC, AIFF, OGG, Opus, WMA, WavPack (.wv), Monkey's Audio (.ape), DSD (.dsf / .dff) s  ̵̨̢̧̡͓̹̗͇̺͚̯̭̗̲̤͉̪͇̪̼͉̘̪͕̤̤͕͓̠̯̥̤͓͈̦̺͑͋͑̎̀͜ͅ ̶̤͔̪̊͌́̋̔̈́̍͝
-- **Library scanning** — scans local folders, reads tags, and groups tracks into albums and editions
-- **MusicBrainz integration** — auto-fetches missing covers, release years, and tracklists during scan
-- **Manual review queue** — surfaces low-confidence MusicBrainz matches for manual approval
-- **Multi-edition albums** — handles multiple versions of an album (Deluxe, Super Deluxe, etc.) under one entry
-- **Multi-disc support** — correctly renders disc breaks in tracklists
-- **Artist profiles** — groups artists with album counts, track counts, and custom profile pictureste
-- **Custom artwork** — set per-album cover images or animated MP4 cover videos
-- **Playback** — full transport controls with shuffle, repeat-one, repeat-all, seek, and volume
-- **Resume playback** — remembers the last playing track and timeline position across restarts
-- **Search** — live search across albums, artists, tracks, and formats
-- **Notifications** — scan results and library alerts
+## <div align="center">Powerful Violentmonkey script for ripping websites,</div> ̷̵̢̡̛̛̛̜͔̟̖̹̲̺̱͎͕̯̠̜̳͈͍̮̗͚̤͍̼͙͓̞̱̣̬̪̮́̈́̅͂̆̏̍́̇̑͂͒̎̐͆̈́̿̋͛͗͑̂̽̑͆̃̋̈̍̈́͆͋̒͛́̍̒̃͊̽̌̿͗̑̊̅̔̊́́͛̒̋̃͆̊͒̈̿̈́͒̈̐͋̋̆̊͗̒́̈̊̌̾̉̓́̈̚͘̚͝͝͠ͅ<div align="center">while using folder structure and relative paths</div> ̵̧͍̮̗͚̤͍̼͙͓̞̱̣̬̪̮̯͗̑̊̅̔̊́́͛̒̋̃͆̊͒̈̿̈́͒̈̐͋̋̆̊͗̒́̈̊̌̾̉̓́̈͝͝͠ͅͅ ̸̛̟̼̍̉͌̈́̀̑̏̉͊͒̌͋̕͝͝
+                 
+
+   
+┏━┓ ̧̨ ̣ ̄ ̇ ̥ ̣ ̣̣ ̣̣ ̦̦ ̣ ̣̣ ˙ ̄ ̇ ̥⡫⡤⠐ ̣ ̣̣ ▔ ̦̦ ̣ ̣̣ ̦̦ ┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓  
+  ┃╹▀▋▆▀▝▘▃▞⣾⣴⡻⢒⣥⡿ .│⠕⣘⡰⢀⠤⡫⡤⠐⣳⡉⡸⢾┋⣣⠘⣲⠠⢀⠏⠵⠚⢋⡍⠤⢻⢙⣢⠃`' ┃⡐⠼⠸⡍⢼⠨⠐⢕ ̵͍̮̗͚̤͍̼͗̑̊̅̔̊́́͛̒̋̃͆̊͒̈̿̈́͒̈̐͋̋̆̊͗̒́̈̊̌̾̉̓́̈͝͝͠⠔⣽ ̵͍͗̑̊̅̔̊́́͛̒̋̃͆̊͒̈̿̈́͒̈̐͋̋̆̊͗̒́̈̊̌̾̉̓́̈͝͝͠ ̸̛̍̉͌̈́̀̑̏̉͊͒̌͋̕͝͝⢰⠥⡀⠁⠤ 
+╶   
+▀━━╾▁▔╶╶ ╴╶╶ ╼━━━━━━━━┛ ˙ ̄ ̇ ̥ ̣ ̣ ˙ ̄ ̇ ̥  ̣i⡫⡤⠐ ̣̣ ̣̣ ̦̦ ̣ ̣̣ ̣ ˙ ̄ ̇ ̥ ̣ ̣̣ ̣̣ ̣ ̵̧͍̮̗͚̤͍̼͙͓̞̱̣̬̪̮̯͗̑̊̅̔̊́́͛̒̋̃͆̊͒̈̿̈́͒̈̐͋̋̆̊͗̒́̈̊̌̾̉̓́̈͝͝͠ͅͅ ̸̛̟̼̍̉͌̈́̀̑̏̉͊͒̌͋̕͝͝ . ˙ ̄ ̇ ̥ ̣ ̣̣˙ ̄ ̇ ̣ ˙⡫⡤⠐ ̄ ̇ ̥ ̣ ̣̣ ̣̣⡤⠐ ̦̦  ̣̣. ̥ ̣<⡫ ̣̣ ┗━━━━━━╾ ╺╶╶ ╶    ╶        ╴       ̷̢̡̛̛̛̜͔̟̖̹̲̺̱͎͕̯̠̜̳͈͍̙́̈́̅͂̆̏̍́̇̑͂͒̎̐͆̈́̿̋͛͗͑̂̽̑͆̃̋̈̍̈́͆͋̒͛́̍̒̃͊̽̌̿̚͘̚ ̵̨̢̧̡͓̹̗͇̺͚̯̭̗̲̤͉̪͇̪̼͉̘̪͕̤̤͕͓̠̯̥̤͓͈̦̺͑͋͑̎̀͜ͅ     ╶ 
+
+
+## ✨ Features
+
+- ✅ Downloads **JS, CSS, HTML, Images** (and all other static assets)
+- ✅ Automatically **rewrites relative paths** correctly
+- ✅ Preserves 100% original folder structure
+- ✅ Exports everything as a single ZIP archive
+- ✅ **Watch Mode**: Automatically captures all new files loaded while you browse
+- ✅ **Auto Mode**: Immediately begin collecting page contents before DOM has fully loaded when entering a page
+- ✅ Filter support: Choose exactly what file types you want to rip
+- ✅ Drag & drop UI that remembers positions
+- ✅ Works on **every website** (no domain restrictions.. well - except github 😉)
+- ✅ Proper error handling & status logging
+- ✅ Zero external dependencies except JSZip
   
               ̷̧̨̧̧̨̛̲̥̗̭͕̥̟͍͕̘̺̭͈̦̮̥̱̹͚͙͇͇̝̠̯͇̫͕͖̺͚̖͈̹̟͚̟̫͔̤̰̬̤͎̹̯̳͍̘̱͚̲̪͔̟̟̲͆̈́͊́̓̂̇́͆͒͗̈́̆̈́̌̆̄̏̒̈́̚͘͜͜͝͠͝͝ͅ ̷̢̡̛̛̛̜͔̟̖̹̲̺̱͎͕̯̠̜̳͈͍̙́̈́̅͂̆̏̍́̇̑͂͒̎̐͆̈́̿̋͛͗͑̂̽̑͆̃̋̈̍̈́͆͋̒͛́̍̒̃͊̽̌̿̚͘̚              ̵̨̢̧̡͓̹̗͇̺͚̯̭̗̲̤͉̪͇̪̼͉̘̪͕̤̤͕͓̠̯̥̤͓͈̦̺͑͋͑̎̀͜ͅ ̶̤͔̪̊͌́̋̔̈́̍͝
+
+
   
+
+⡚⠝⡟⠣⡳⢱⡿⣻⣷⢔⢢⣋⣈⢯⢊⣭⢹⣵⣔⣗⣬⡶⡵⡏⢻⣩⠦⡁⠩⡴⡮⡪⡥⣪⠜⣠⣒⡯⣠⣐⣮⢅⠼⢧⡔⡀⣑⡍⡖⢍⢈⢫⣥⠹⢄⢠⣜⠗⢞⢖⣩⡼⡢⡇⣯⡑⠔  
+
+
+## 🚀 Installation
+
+**0¹. For Firefox users: install **Violentmonkey** for your browser:**  
+*[Firefox Addons](https://addons.mozilla.org/firefox/addon/violentmonkey/)*  
+**0². For Chrome users: install **Tampermonkey** for your browser (should work too):**  
+*[Chrome Web Store](https://chromewebstore.google.com/detail/dhdgffkkebhmkfjojejmpbldmpobfkfo?utm_source=item-share-cb)*  
+
+**1. [Click here](https://github.com/crmbz0r/ViolentRipper/raw/refs/heads/main/ViolentRipper.user.js) and the userscript should load into Violentmonkey**  
+
+**1.5 If it doesn't get added automatically, continue here to add it manually**  
+**2. Open *Violentmonkey Dashboard* or press on the monkey head in your browsers addon symbol area**  
+**3. Create a *new userscript* using the **+** in the upper left corner in the dashboard or the fat **+** from the monkey icon**  
+**4. Paste the *complete code* from `ViolentRipper.user.js`**  
+**4. *Save & done!***  
   
 
+⡽⡸⣹⡲⠟⠸⠻⠲⣁⣏⣻⡑⣌⢐⡶⡛⣗⢌⢰⡉⡜⡻⠯⣽⡐⠴⠧⢬⢶⠙⡵⠅⢡⢹⡧⡄⡘⣝⡓⣓⢮⢛⡈⢅⢉⣥⣄⣦⠫⠭⣔⣒⢷⠩⡀⠌⠨⣍⣎⠮⠷⠬⡅⠓⡗⣟⣺⢦  
 
 
+## 🎯 Usage
 
-## Tech Stack
+**1. Visit any website you want to rip**  
+**2. Click the **`⇣V↬Ripper`** button in the bottom right corner**  
+**3. ✅ Use the filter chips to select which file types you want**  
+**4. Press **🔍 Scan** to run a full site scan**  
+**5. Wait for files to be processed**  
+**6. Press **📦 Save ZIP** to download the complete archive**  
+⢃⢴⢗⣉⠃⣰⢾⠞⢯⡜⠶⢜⡬⠰⠂⡊⣛⣾⣴⡻⡿⢠⠕⣘⡰⢀⠤⡫⡤⠐⡈⣣⠘⣲⠠⢀⠏⠵⠚⢋⡍⠤⢻⢙⣢⠃⠍⡐⡯⢅⠎⣰⡎⠻⡐⠼⠸⡍⢷⢼⠨⠐⢕⢜⠺⣄  
 
-- [Electron](https://electronjs.org) — desktop shell
-- [music-metadata](https://github.com/borewit/music-metadata) — audio tag reading
-- [electron-store](https://github.com/sindresorhus/electron-store) — persistent preferences ̸͍́̊̾̐̐ ̶̤͔̪̊͌́̋̔̈́̍͝
-- Vanilla JS (ES modules), HTML, CSS — no frontend framework
+### 👁 Watch Mode
 
-## Getting Started
+**Enable ***Watch Mode** to automatically* capture every new file that loads delayed on the page while you navigate around.  
 
-```bash
-npm install
-npm start
-```
+Perfect for single page applications and sites that load content dynamically.**
 
-> **Note:** `npm install` automatically rebuilds the `audify` native addon against Electron's Node ABI via a `postinstall` script. This requires C++ build tools (see below).
+### 💫 Auto Mode
 
-Then go to **Settings → Add folder**, point it at your music directory, and hit **Scan library**.
+**Enable ***Auto Mode** to automatically* begin collecting everything from the earliest possible moment, even before DOM is loaded.
+Usually delivers a few more files into the collection list, so probably worth to just use it everytimee.**
 
-## Dolby Atmos Playback
-
-Tracks encoded in **EC-3 / E-AC-3** (Dolby Digital Plus / Atmos) and **AC-3** (Dolby Digital) are automatically detected and routed through a native audio pipeline:
-
-1. **FFmpeg** (bundled via `ffmpeg-static`) decodes the file to raw PCM
-2. **audify / RtAudio** outputs via WASAPI (Windows) for low-latency playback
-
-This is required because Chromium's `<audio>` element cannot decode EC-3/AC-3 codecs. Standard formats (MP3, AAC, FLAC, etc.) continue to use the normal HTML5 audio path.
-
-### Requirements for Atmos playback
-
-- **Windows** — the native pipeline uses WASAPI; macOS/Linux support would need a different RtAudio backend
-- **Build tools** — `npm install` needs to compile `audify`'s native addon. On Windows, install the **"Desktop development with C++"** workload from [Visual Studio Build Tools](https://visualstudio.microsoft.com/visual-cpp-build-tools/) (or full Visual Studio) and **Python 3.x**
-
-## Project Structure
-
-```text
-src/
-  main/         # Electron main process (main.js, preload.js)
-  renderer/
-    app.js      # Entry point — boot, navigation, top-level listeners
-    state.js    # Shared state, utilities, markup helpers
-    player.js   # Audio engine and transport controls
-    views/      # One module per page (home, albums, artists, search, settings, notifications, manage)
-    style.css
-    index.html
-```
-
-## Requirements
-
-- Node.js 18+
-- Electron 30
-- **Windows**: Visual Studio Build Tools with "Desktop development with C++" workload (for compiling `audify`)
-- Python 3.x (used by `node-gyp` during native addon compilation)
-
-Skip to content
-
-    final-wav
-    ModernMusicPlayer
-
-Repository navigation
-
-    Code
-    Issues
-    Pull requests
-    Agents
-    Actions
-    Projects
-    Security and quality
-    Insights
-    Settings
-
-Files
+⠣⡞⣈⣕⡑⠋⡃⠫⣣⢬⣃⣅⢇⠇⣗⣺⢮⢰⠥⡀⠁⠤⢃⡧⡱⠖⠐⢄⣧⢂⠲⡢⠆⡠⠁⠢⠒⠉⠶⠩⠧⡗⡾⠤⣼⠃⠼⢆⢚⠜⡵⠅⠘⠺⠽⢁⠂⣶⡛⢻⠻⠻⠏⠿⢠⢈⠦  
 
 
-    src
-    .gitattributes
-    .gitignore
-    LICENSE
-    README.md
-    package-lock.json
-    package.json
+## ⚙ How it works
 
-    ModernMusicPlayer 
-.　　　　　　⋆　　　　　✵　　　　　　　⊹     
-.　　⊹　　　　✦　　　　　　　　✧　　　　⋆　　　
-　　　　　✵　　　　⊹　　　　　　　✦　　　　　✧   
-　⋆　　　　　　　✧　　　✵　　　　　　⊹　　　⊹　　
-　　 .　✦　　⋆　　　　　　　　✦　　　　　　　✵　
-.　　　　⊹　　　　　✧　　⋆　　　　✦　⊹ 　　　　　⋆
-　✧　　　　　✵　　　　　　⊹　　　　　　⋆　　✦  
-　　　⋆　　　　✦　　　　✧　　　✵　　　　　⊹　　
-.　　✵　　⊹　　　　⋆　　　　　✦　　　✧　　✦　　　　　　
-<div align="center">
-    
-!  Copyright © 2026 !   
-     
-◿『 H a k a n D a d a y l i 』→『 f i n a l- w a v 』◺ 
+**1. Scans the entire DOM for all external resources**  
+**2. Uses Performance API to find even dynamically loaded files**  
+**3. Downloads each file using `GM_xmlhttpRequest` (no CORS restrictions)**  
+**4. Rewrites all `src`, `href`, `background-image` paths to be relative**  
+**5. Reconstructs exact original directory structure**  
+**6. Packages everything into properly structured ZIP file**  
   
-「⨯」  
+
+⡙⡠⡍⡖⢍⢈⢫⣥⠹⢄⣬⡶⡵⡏⢻⣩⠦⡁⠩⡴⡮⡪⢠⢖⣩⡼⡢⡇⣯⡑⠔⡽⡸⣹⡲⠟⠸⠻⡶⡛⣗⢌⢰⡉⡜⡻⠯⣽⡐⠴⠧⢬⠅⢡⢹⢝⣫⡃⣂⢎⣧⠢⢿⣱⡧⡄⡘  
+
+
+## 📋 File Types
+
+| Type                   | Description                                       |
+| ---------------------- | ------------------------------------------------- |
+| **🟢 `.js`**   | **All JavaScript files**                    |
+| **🟣 `.css`**  | **Stylesheets including imports**           |
+| **🟡 `.html`** | **Pages and documents**                     |
+| **🔵 Images**    | **`png, jpg, gif, svg, webp, ico, avif`** |  
   
-◹『 c r m b z 0 r 』←『 F i n n W i n k l e r  』◸  
+
+⠶⢜⡬⠰⠂⡊⣛⣾⣴⡻⢒⣥⡿⢠⠕⣘⡰⢀⠤⡫⡤⠐⣳⡉⡸⢾⢻⢙⣢⠃⠍⣄⠣⡞⣈⣕⡑⠋⡃⠫⣣⢬⣃⣅⢇⠇⣗⣺⢮⠔⣽⠾⡳⢰⠥⡀⠁⠤⢃⡧⡱⠖⠐⢄  
+
+
+## 🔒 Permissions
+
+**This userscript requires:**
+
+- **`GM_xmlhttpRequest` for cross-origin downloads**
+- **`GM_addStyle` for UI styling**
+- **Full host access `*://*/*` to work on all websites**  
   
-◿ This program is free ✓ software! ◺  
-◿ You can redistribute it and / or modify ◺  
-◁◅◃ it under the terms of the ▹▻▷  
-◹ GNU General Public License v3! ◸  
-</div>
+
+⠹⢄⢠⣜⠗⢞⢖⣩⡼⡢⡇⣯⡑⠔⡽⡸⣹⡲⠟⠸⠻⠲⣁⢰⡉⡜⡻⠯⣽⡐⠴⠧⢬⢶⠙⡵⠅⢡⢹⢝⣫⡃⣧⠢⢿⣱⡧⡄⡘⣝⡓⣓⢮⢛⡈⢅⢉⣥⣄⣦⠫⣔⣒⢷⠩⡀⠌  
+## Known bugs... 
+- The Watcher always does a full scan on it's first activation on new pages even if a manual scan was already done.. it doesn't seem to cause issues or loss of content, but I'll fix it''s initial loading / scanning behaviour soon.  
+- Menu not opening= That bug should be fixed and gone by now - but if it somehow happens to you, just move the button a few pixels and the menu opens up again as it should be.
+- probably one or two more that i have forgotten at the moment of typing this section here
+
+
+## 📝 License
+
+**MIT License - Use freely, modify, distribute as you like.  
+I am ***not*** responsible for ***your actions*** with this userscript. Think twice what to do with the ripped content.**  
+
+
+⣾⣴⡻⢒⣥⡿⢠⠕⣘⡰⢀⠤⡫⡤⠐⣳⡉⡸⢾⣾⢚⢟⣯⡈⣣⠘⣲⠠⢀⠏⠵⠚⢋⡍⠤⢻⢙⣢⠃⠍⡐⡯⢅⠎⠺⠾⡳⢰⠥⡀⠁⠤⢃⡧⡱⠖⠐⢄⣧⢂⠲⡢⠆⡠⠁⠢⠒  
+
+
+#### *Built for Violentmonkey - Works best on modern browsers - Most likely Tampermonkey compatible*  
+
+
+⡚⠝⡟⠣⡳⢱⡿⣻⣷⢔⢢⣋⣈⢯⢊⣭⢹⣵⣔⣗⣬⡶⡵⡏⢻⣩⠦⡁⠩⡴⡮⡪⡥⣪⠜⣠⣒⢓⢕⠳⡯⣠⠰⣐⣮⢅⠼⢧⡔⡀⣑⢩⡝⢶⡙⡠⡍⡖⢍⢈⢫⣥⠹⢄⢠⣜⠗⢞⢖⣩⡼⡢⡇⣯⡑⠔⡽⡸⣹⡲⠟⠸⠻⠲⣁⣏⣻⡑⣌⢐⡶⡛⣗⢌⢰⡉⡜⡻⠯⣽⡐⠴⠧⢬⢶⠙⡵⠅⢡⢹⢝⣫⡃⣂⢎⣧⠢⢿⣱⡧⡄⡘⣝⡓⣓⢮⢛⡈⢅⢉⣥⣄⣦⠫⠭⣔⣒⢷⠩⡀⠌⠨⣍⣎⠮⠷⠬⡅⠓⡗⣟⣺⢦⢃⢴⢗⣉⠃⣰⢾⠞⢯⡜⠶⢜⡬⠰⠂⡊⣛⣾⣴⡻⢒⣥⡿⢠⠕⣘⡰⢀⠤⡫⡤⠐⣳⡉⡸⢾⣾⢚⢟⣯⡈⣣⠘⣲⠠⢀⠏⠵⠚⢋⡍⠤⢻⢙⣢⠃⠍⡐⡯⢅⠎⣰⡎⠻⡐⠼⠸⡍⢷⢼⠨⠐⢕⢜⠺⣄⠣⡞⣈⣕⡑⠋⡃⠫⣣⢬⣃⣅⢇⠇⣗⣺⢮⠔⣽⠾⡳⢰⠥⡀⠁⠤⢃⡧⡱⠖⠐⢄⣧⢂⠲⡢⠆⡠⠁⠢⠒⠉⠶⠩⠧⡗⡾
+
+
+
+
+            ̷̧̨̧̧̨̛̲̥̗̭͕̥̟͍͕̘̺̭͈̦̮̥̱̹͚͙͇͇̝̠̯͇̫͕͖̺͚̖͈̹̟͚̟̫͔̤̰̬̤͎̹̯̳͍̘̱͚̲̪͔̟̟̲͆̈́͊́̓̂̇́͆͒͗̈́̆̈́̌̆̄̏̒̈́̚͘͜͜͝͠͝͝ͅ ̷̢̡̛̛̛̜͔̟̖̹̲̺̱͎͕̯̠̜̳͈͍̙́̈́̅͂̆̏̍́̇̑͂͒̎̐͆̈́̿̋͛͗͑̂̽̑͆̃̋̈̍̈́͆͋̒͛́̍̒̃͊̽̌̿̚͘̚ ̵̨̢̧̡͓̹̗͇̺͚̯̭̗̲̤͉̪͇̪̼͉̘̪͕̤̤͕͓̠̯̥̤͓͈̦̺͑͋͑̎̀͜ͅ
+                                            
+                ̷̢̡̛̛̛̜͔̟̖̹̲̺̱͎͕̯̠̜̳͈͍̙́̈́̅͂̆̏̍́̇̑͂͒̎̐͆̈́̿̋͛͗͑̂̽̑͆̃̋̈̍̈́͆͋̒͛́̍̒̃͊̽̌̿̚͘̚ ̵̨̢̧̡͓̹̗͇̺͚̯̭̗̲̤͉̪͇̪̼͉̘̪͕̤̤͕͓̠̯̥̤͓͈̦̺͑͋͑̎̀͜ͅ    
