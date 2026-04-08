@@ -105,6 +105,10 @@ Usually delivers a few more files into the collection list, so probably worth to
   
 
 ⠹⢄⢠⣜⠗⢞⢖⣩⡼⡢⡇⣯⡑⠔⡽⡸⣹⡲⠟⠸⠻⠲⣁⢰⡉⡜⡻⠯⣽⡐⠴⠧⢬⢶⠙⡵⠅⢡⢹⢝⣫⡃⣧⠢⢿⣱⡧⡄⡘⣝⡓⣓⢮⢛⡈⢅⢉⣥⣄⣦⠫⣔⣒⢷⠩⡀⠌  
+## Known bugs... 
+- The Watcher always does a full scan on it's first activation on new pages even if a manual scanwas already done.. it doesn't seem to cause issues or loss of content, but I'll fix it''s initial loading / scanning behaviour soon.  
+- Menu not opening= That bug should be fixed and gone by now - but if it somehow happens to you, just move the button a few pixels and the menu opens up again as it should be.
+- probably one or two more that i have forgotten at the moment of typing this section here
 
 
 ## 📝 License
