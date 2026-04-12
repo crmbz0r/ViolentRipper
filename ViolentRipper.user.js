@@ -4,13 +4,14 @@
 // @match       *://*/*
 // @icon        https://raw.githubusercontent.com/crmbz0r/ViolentRipper/refs/heads/main/icon.png
 // @grant       GM_xmlhttpRequest
-// @version     4.2.0.66
+// @version     4.2.0.67
 // @author      crmbz0r
 // @description Rips website contents (html, js, css & images), auto converts embedded stuff to correct local paths while preserving the original folder structure
 // @exclude     https://github.com/*
 // @exclude     https://raw.githubusercontent.com/*
 // @exclude     https://gist.github.com/*
 // @exclude     https://youtube.com/*
+// @connect     self
 // @connect     *
 // @run-at      document-start
 // @noframes
@@ -26,7 +27,38 @@
 // @require     https://cdn.jsdelivr.net/gh/crmbz0r/ViolentRipper@main/lib/ui.js
 // ==/UserScript==
 
-; (function () {
+// Define globalThis for engines that don't support it (non ViolentMonkey like Tampermonkey)
+if (typeof globalThis === 'undefined') {
+    var globalThis = window;
+}
+
+if (typeof ViolentRipper === 'undefined') {
+    console.error('[ViolentRipper] Fatal: ViolentRipper object not found. Check if @require files loaded correctly.');
+    // Try to initialize manually or provide fallback
+    window.ViolentRipper = {
+        getStyles: () => '',
+        ui: {
+            buildPanel: () => ({ panel: document.createElement('div') }),
+            setupDrag: () => {},
+            _updateAutoWatchPosition: () => {}
+        },
+        state: {
+            activeTypes: new Set(),
+            autoWatchEnabled: false,
+            watchModeActive: false
+        },
+        scanner: {
+            scan: () => console.log('[ViolentRipper] Scan called'),
+            toggleWatchMode: () => console.log('[ViolentRipper] Toggle watch mode'),
+            clear: () => console.log('[ViolentRipper] Clear called')
+        },
+        downloader: {
+            downloadZip: () => console.log('[ViolentRipper] Download called')
+        }
+    };
+}
+
+(function () {
     'use strict'
 
     document.addEventListener('DOMContentLoaded', function () {
