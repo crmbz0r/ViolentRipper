@@ -4,7 +4,7 @@
 // @match       *://*/*
 // @icon        https://raw.githubusercontent.com/crmbz0r/ViolentRipper/refs/heads/main/icon.png
 // @grant       GM_xmlhttpRequest
-// @version     4.2.0.72
+// @version     4.2.0.73
 // @author      crmbz0r
 // @description Rips website contents (html, js, css & images), auto converts embedded stuff to correct local paths while preserving the original folder structure
 // @exclude     https://github.com/*
@@ -29,7 +29,7 @@
 
 // Define 'globalThis' & 'ViolentRipper' for engines that don't support it (non ViolentMonkey like Tampermonkey)
 if (typeof globalThis === 'undefined') {
-    window.globalThis = window;
+    var globalThis = window;
 }
 
 if (typeof ViolentRipper === 'undefined') {
