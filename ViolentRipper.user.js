@@ -4,9 +4,9 @@
 // @match       *://*/*
 // @icon        https://raw.githubusercontent.com/crmbz0r/ViolentRipper/refs/heads/main/icon.png
 // @grant       GM_xmlhttpRequest
-// @version     4.2.0.74
+// @version     4.3.0
 // @author      crmbz0r
-// @description Rips website contents (html, js, css & images), auto converts embedded stuff to correct local paths while preserving the original folder structure
+// @description Rips website contents (html, js, css, images & enhanced types), auto converts embedded stuff to correct local paths while preserving the original folder structure
 // @exclude     https://github.com/*
 // @exclude     https://raw.githubusercontent.com/*
 // @exclude     https://gist.github.com/*
@@ -40,11 +40,13 @@ if (typeof ViolentRipper === 'undefined') {
         ui: {
             buildPanel: () => ({ panel: document.createElement('div') }),
             setupDrag: () => {},
-            _updateAutoWatchPosition: () => {}
+            _updateAutoWatchPosition: () => {},
+            toggleEnhancedMode: () => {}
         },
         state: {
             activeTypes: new Set(),
             autoWatchEnabled: false,
+            enhancedMode: false,
             watchModeActive: false
         },
         scanner: {
@@ -78,10 +80,20 @@ if (typeof ViolentRipper === 'undefined') {
         // Initialize auto button position next to main button
         ViolentRipper.ui._updateAutoWatchPosition()
 
+        // Initialize enhanced mode UI state
+        if (ViolentRipper.state.enhancedMode) {
+            ViolentRipper.ui.toggleEnhancedMode(true)
+            // Set initial active states for enhanced types
+            ViolentRipper.state.activeTypes.add('archive')
+            ViolentRipper.state.activeTypes.add('audio')
+            ViolentRipper.state.activeTypes.add('video')
+        }
+
         // Filter chips
         elements.panel.querySelectorAll('.ViolentRipper-chip').forEach(chip => {
             chip.addEventListener('click', () => {
                 const t = chip.dataset.type, { activeTypes } = ViolentRipper.state
+                if (t === 'enhanced') return // Skip enhanced toggle, handled separately
                 if (activeTypes.has(t)) {
                     if (activeTypes.size === 1) return
                     activeTypes.delete(t); chip.className = 'ViolentRipper-chip'
@@ -90,6 +102,31 @@ if (typeof ViolentRipper === 'undefined') {
                 }
             })
         })
+
+        // Enhanced toggle chip
+        if (elements.enhancedToggle) {
+            elements.enhancedToggle.addEventListener('click', e => {
+                e.stopPropagation()
+                const s = ViolentRipper.state
+                s.enhancedMode = !s.enhancedMode
+                localStorage.setItem('ViolentRipper-enhancedMode', s.enhancedMode)
+                ViolentRipper.ui.toggleEnhancedMode(s.enhancedMode)
+                if (s.enhancedMode) {
+                    // Add enhanced types to activeTypes when enabling
+                    s.activeTypes.add('archive')
+                    s.activeTypes.add('audio')
+                    s.activeTypes.add('video')
+                    // Update chip styles
+                    const enhancedChips = elements.enhancedChipsContainer.querySelectorAll('.ViolentRipper-chip')
+                    enhancedChips.forEach(chip => {
+                        const t = chip.dataset.type
+                        if (s.activeTypes.has(t)) {
+                            chip.className = `ViolentRipper-chip active-${t}`
+                        }
+                    })
+                }
+            })
+        }
 
         // Button events
         elements.closeBtn.addEventListener('click', () => elements.panel.classList.add('hidden'))
