@@ -4,7 +4,7 @@
 // @match       *://*/*
 // @icon        https://raw.githubusercontent.com/crmbz0r/ViolentRipper/refs/heads/main/icon.png
 // @grant       GM_xmlhttpRequest
-// @version     4.3.0
+// @version     4.3.1
 // @author      crmbz0r
 // @description Rips website contents (html, js, css, images & enhanced types), auto converts embedded stuff to correct local paths while preserving the original folder structure
 // @exclude     https://github.com/*
@@ -80,13 +80,40 @@ if (typeof ViolentRipper === 'undefined') {
         // Initialize auto button position next to main button
         ViolentRipper.ui._updateAutoWatchPosition()
 
+        // Load activeTypes from localStorage (per hostname)
+        const savedActiveTypes = localStorage.getItem(ViolentRipper.state.activeTypesKey)
+        if (savedActiveTypes) {
+            try {
+                const parsed = JSON.parse(savedActiveTypes)
+                ViolentRipper.state.activeTypes = new Set(parsed)
+            } catch (e) {
+                // Use default activeTypes if parsing fails
+            }
+        }
+
         // Initialize enhanced mode UI state
         if (ViolentRipper.state.enhancedMode) {
             ViolentRipper.ui.toggleEnhancedMode(true)
-            // Set initial active states for enhanced types
+            // Ensure enhanced types are in activeTypes if enhanced mode was saved
             ViolentRipper.state.activeTypes.add('archive')
             ViolentRipper.state.activeTypes.add('audio')
             ViolentRipper.state.activeTypes.add('video')
+        }
+
+        // Update chip visual states based on loaded activeTypes
+        elements.panel.querySelectorAll('.ViolentRipper-chip').forEach(chip => {
+            const t = chip.dataset.type
+            if (t !== 'enhanced' && ViolentRipper.state.activeTypes.has(t)) {
+                chip.className = `ViolentRipper-chip active-${t}`
+            }
+        })
+
+        // Helper function to save activeTypes to localStorage
+        const saveActiveTypes = () => {
+            localStorage.setItem(
+                ViolentRipper.state.activeTypesKey,
+                JSON.stringify([...ViolentRipper.state.activeTypes])
+            )
         }
 
         // Filter chips
@@ -100,6 +127,7 @@ if (typeof ViolentRipper === 'undefined') {
                 } else {
                     activeTypes.add(t); chip.className = `ViolentRipper-chip active-${t}`
                 }
+                saveActiveTypes()
             })
         })
 
